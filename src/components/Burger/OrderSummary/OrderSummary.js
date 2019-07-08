@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 import _Aux from '../../../hoc/_Aux/_Aux'
 
@@ -14,14 +14,14 @@ const orderSummary = props => {
         })
 
     return (
-        <_Aux>
+        <React.Fragment>
             <h3>Your Order</h3>
             <p>A delicious burger with the following ingredients:</p>
             <ul>
                 {ingredientSummary}
             </ul>
             <p>Continue checkout</p>
-        </_Aux>
+        </React.Fragment>
     )
 }
 
