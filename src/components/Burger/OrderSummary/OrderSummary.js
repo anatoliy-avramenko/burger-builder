@@ -1,6 +1,4 @@
-import React, {Fragment} from 'react'
-
-import _Aux from '../../../hoc/_Aux/_Aux'
+import React from 'react'
 import Button from '../../UI/Button/Button'
 
 

@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import classes from './Modal.css'
-import _Aux from '../../../hoc/_Aux/_Aux'
 import Backdrop from '../Backdrop/Backdrop'
 
 const modal = props => (
